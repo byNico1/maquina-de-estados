@@ -1,0 +1,27 @@
+{
+  "name": "maquinas-de-estados",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@xstate/react": "^3.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xstate": "^4.37.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^5.0.0",
+    "vite": "^4.1.0"
+  },
+  "homepage": "https://bynico1.github.io/maquinas-de-estados"
+}
